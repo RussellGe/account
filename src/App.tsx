@@ -1,7 +1,6 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import PriceList from "./components/PriceList";
+import PriceList from "./components/PriceList/PriceList";
 import { PriceItem } from "./typings/PriceList";
 
 const list: PriceItem[] = [
